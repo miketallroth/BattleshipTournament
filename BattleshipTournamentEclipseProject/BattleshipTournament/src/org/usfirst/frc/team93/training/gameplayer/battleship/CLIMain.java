@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import org.usfirst.frc.team93.training.gameplayer.battleship.players.TestGamePlayer;
+import org.usfirst.frc.team93.training.gameplayer.battleship.players.TestGamePlayer2;
 
 /**
  * @author nick.luther
@@ -34,7 +35,7 @@ public class CLIMain {
 		Tournament tourn = new Tournament(true);
 		
 		tourn.registerPlayer(new TestGamePlayer());
-		tourn.registerPlayer(new TestGamePlayer());
+		tourn.registerPlayer(new TestGamePlayer2());
 		
 		// Call before building the tournament schedule
 		tourn.resetTournament();
