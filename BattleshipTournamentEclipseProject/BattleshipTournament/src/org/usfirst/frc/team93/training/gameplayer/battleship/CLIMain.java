@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 
 import org.usfirst.frc.team93.training.gameplayer.battleship.players.TestGamePlayer;
 import org.usfirst.frc.team93.training.gameplayer.battleship.players.TestGamePlayer2;
+import org.usfirst.frc.team93.training.gameplayer.battleship.players.TestGamePlayer3;
 
 /**
  * @author nick.luther
@@ -36,6 +37,7 @@ public class CLIMain {
 		
 		tourn.registerPlayer(new TestGamePlayer());
 		tourn.registerPlayer(new TestGamePlayer2());
+		tourn.registerPlayer(new TestGamePlayer3());
 		
 		// Call before building the tournament schedule
 		tourn.resetTournament();
